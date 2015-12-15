@@ -1,0 +1,22 @@
+treeHeight = 0
+trunkHeight = 0
+trunkHeighta = 4
+trunkHeightb = 9
+trunkWidth =15
+while treeHeight < 18:
+  while trunkHeight < 4:
+    print (" " * (8 - trunkHeight) + "*" * (trunkHeight * 2 + 1))
+    treeHeight = treeHeight + 1
+    trunkHeight = trunkHeight + 1
+  while trunkHeighta < 9:
+     print (" " * (11 - trunkHeighta) + "*" * (trunkHeighta * 2 - 5))
+     trunkHeighta = trunkHeighta + 1
+  while trunkHeightb < 15:
+    print (" " * (15 - trunkHeightb) + "*" * (trunkHeightb * 2 - 13))
+    trunkHeightb = trunkHeightb + 1
+  while trunkWidth < 17:
+    print (" " * 6 + "*" * 5 )
+    trunkWidth = trunkWidth + 1
+  while trunkWidth < 18:
+    print (" " * 6 + "*" * 5 + " " * 5 + "*Merry Christmas!!!!*")
+    trunkWidth = trunkWidth + 1
